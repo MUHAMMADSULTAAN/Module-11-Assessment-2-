@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodieFanatix - Home</title>
+    <!-- Link to Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link to Custom style.css -->
+    <link href="./style.css" rel="stylesheet">
+    <style>
+        .card {
+            margin-bottom: 20px;
+        }
+        .card-body {
+            height: 200px;
+        }
+        .card-text {
+            height: 120px; /* Adjust text height for uniformity */
+            overflow: hidden;
+        }
+        .rating {
+            font-size: 1.2em;
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">FoodieFanatix</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./review.html">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero bg-primary text-white text-center py-5">
+        <h1>Welcome to FoodieFanatix</h1>
+        <p >Your guide to the best food around the world!</p>
+    </header>
+
+    <!-- Featured Dishes -->
+    <div class="container mt-5">
+        <h2 class="h2 text-center title"> This Weeks Featured Dishes from Around the World</h2>
+        <div class="row g-4"> <!-- Added g-4 for more spacing between rows -->
+            <!-- Dish 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/steak and chips.jpg" class="card-img-top" alt="Belgium Fries">
+                    <div class="card-body">
+                        <h5 class="card-title">Belgium Fries</h5>
+                        <p class="card-text">Belgium is known for its unique take on fries, served crispy and golden, often paired with steak and a variety of homemade sauces. A simple yet delicious dish that captures the essence of Belgian street food culture.</p>
+                        <div class="rating">⭐⭐⭐⭐⭐ (5/5)</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dish 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/churasco.jpg" class="card-img-top" alt="Churrasco in Brazil">
+                    <div class="card-body">
+                        <h5 class="card-title">Churrasco in Brazil</h5>
+                        <p class="card-text">A traditional Brazilian barbecue, or Churrasco, is a meat lover's paradise. With skewered cuts of beef, pork, and chicken cooked over an open flame, it’s a festive and flavor-packed experience.</p>
+                        <div class="rating">⭐⭐⭐⭐ (4/5)</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dish 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/butter chicken.jpg" class="card-img-top" alt="Curry in India">
+                    <div class="card-body">
+                        <h5 class="card-title">Butter Chicken</h5>
+                        <p class="card-text">Butter Chicken is a rich, aromatic dish with tender chicken simmered in a creamy tomato-based sauce. The sauce is infused with a blend of warm spices like garam masala, cumin, and coriander, giving it a perfect balance of mild heat and sweetness. Its velvety texture and bold flavors make it a favorite among curry lovers. Often served with naan or rice, Butter Chicken offers a comforting and indulgent dining experience that's beloved around the world.</p>
+                        <div class="rating">⭐⭐⭐⭐⭐ (5/5)</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dish 4 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/sashimi.jpg" class="card-img-top" alt="Sashimi in Japan">
+                    <div class="card-body">
+                        <h5 class="card-title">Sashimi in Japan</h5>
+                        <p class="card-text">Sashimi in Japan is an art form, with thinly sliced raw fish like tuna, salmon, and octopus served fresh. Each bite highlights the purity of the ingredients, bringing the ocean's flavors directly to your plate.</p>
+                        <div class="rating">⭐⭐⭐⭐⭐ (5/5)</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dish 5 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/moussaka.jpg" class="card-img-top" alt="Moussaka in Greece">
+                    <div class="card-body">
+                        <h5 class="card-title">Moussaka in Greece</h5>
+                        <p class="card-text">Moussaka is a Greek classic that layers eggplant, minced meat, and béchamel sauce. Rich, savory, and comforting, it's a perfect dish to experience the depth of Mediterranean flavors.</p>
+                        <div class="rating">⭐⭐⭐⭐ (4/5)</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dish 6 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/poutine.jpg" class="card-img-top" alt="Poutine in Canada">
+                    <div class="card-body">
+                        <h5 class="card-title">Poutine in Canada</h5>
+                        <p class="card-text">Poutine is a beloved Canadian dish consisting of crispy fries topped with cheese curds and smothered in rich gravy. It’s indulgent, comforting, and a true taste of Canadian comfort food.</p>
+                        <div class="rating">⭐⭐⭐⭐ (4/5)</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dish 7 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/falafel.jpg" class="card-img-top" alt="Falafel in Egypt">
+                    <div class="card-body">
+                        <h5 class="card-title">Falafel in Egypt</h5>
+                        <p class="card-text">Falafel is a popular Egyptian street food made from ground chickpeas, fried into crispy balls, and served with tahini sauce and pita. It's a flavorful, plant-based dish perfect for any time of day.</p>
+                        <div class="rating">⭐⭐⭐⭐ (4/5)</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dish 8 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/biryani.jpg" class="card-img-top" alt="Biryani in Pakistan">
+                    <div class="card-body">
+                        <h5 class="card-title">Biryani in Pakistan</h5>
+                        <p class="card-text">Biryani in Pakistan is a fragrant rice dish made with spiced meat and saffron, served with yogurt or raita. It’s a savory and aromatic dish that’s rich in flavor and tradition.</p>
+                        <div class="rating">⭐⭐⭐⭐⭐ (5/5)</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dish 9 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/souvlaki.jpg" class="card-img-top" alt="Souvlaki in Greece">
+                    <div class="card-body">
+                        <h5 class="card-title">Souvlaki in Greece</h5>
+                        <p class="card-text">Souvlaki is a popular Greek dish consisting of skewered and grilled meat, often served with pita bread, salad, and tzatziki. It's a savory and fresh meal perfect for a light lunch or dinner.</p>
+                        <div class="rating">⭐⭐⭐⭐ (4/5)</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dish 10 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/kimchi.jpg" class="card-img-top" alt="Kimchi in Korea">
+                    <div class="card-body">
+                        <h5 class="card-title">Kimchi in Korea</h5>
+                        <p class="card-text">Kimchi is a staple of Korean cuisine, a fermented vegetable dish made with cabbage, radish, and a spicy, tangy paste. It's a unique, flavorful accompaniment to almost any Korean meal.</p>
+                        <div class="rating">⭐⭐⭐⭐ (4/5)</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dish 11 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/sushi.jpg" class="card-img-top" alt="Sushi in Japan">
+                    <div class="card-body">
+                        <h5 class="card-title">Sushi in Japan</h5>
+                        <p class="card-text">Sushi is a renowned Japanese dish that combines vinegared rice with a variety of ingredients, including seafood, vegetables, and sometimes tropical fruits. It’s both a simple and refined dish that brings out the natural flavors of the fresh ingredients.</p>
+                        <div class="rating">⭐⭐⭐⭐⭐ (5/5)</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dish 12 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/tacos.jpg" class="card-img-top" alt="Tacos in Mexico">
+                    <div class="card-body">
+                        <h5 class="card-title">Tacos in Mexico</h5>
+                        <p class="card-text">Tacos are a staple in Mexican cuisine, consisting of a tortilla filled with a variety of meats, vegetables, and garnished with fresh herbs and salsas. It’s a flavorful and versatile dish that is perfect for a quick bite or a more elaborate meal.</p>
+                        <div class="rating">⭐⭐⭐⭐ (4/5)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 FoodieFanatix. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodieFanatix</title>
+    <!-- Link to Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link to FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Link to Custom style.css -->
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg" style="background: linear-gradient(to right, #000, #444);">
+        <a class="navbar-brand text-white" href="#">FoodieFanatix</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="./review.html">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="./gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Welcome Section -->
+    <section id="welcome" class="text-center py-5" style="background-color: #f8f9fa;">
+        <div class="container">
+            <h2 class="display-4 text-dark">Welcome to FoodieFanatix!</h2>
+            <p class="lead text-dark">The ultimate destination for the best food reviews from around the world. Whether you love sushi, steak, curry, or street food, we've got you covered. Our team of food enthusiasts travels the globe, sampling the finest dishes and sharing their experiences with you.</p>
+            <p class="text-dark">Join us as we explore unique flavors, hidden gems, and culinary masterpieces from every corner of the world. Stay tuned for expert recommendations and honest reviews!</p>
+        </div>
+    </section>
+
+    <!-- Hero Section (Carousel) -->
+    <div id="hero" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#hero" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#hero" data-bs-slide-to="1"></li>
+            <li data-bs-target="#hero" data-bs-slide-to="2"></li>
+            <li data-bs-target="#hero" data-bs-slide-to="3"></li>
+            <li data-bs-target="#hero" data-bs-slide-to="4"></li>
+            <li data-bs-target="#hero" data-bs-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./images/sushi.jpg" alt="First review">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="h5">Amazing Sushi in Tokyo</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./images/steak.jpg" alt="Second review">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="h5">Review of the Best Steak in Ohio</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./images/chicken curry.jpg" alt="Third review">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="h5">Amazing Chicken Curry in India</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./images/paella.jpg" alt="Fourth review">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="h5">Review of the Best Paella in Argentina</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./images/dimsum.jpg" alt="Fifth review">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="h5">Amazing Dim Sum in Hong Kong</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./images/bankgok.jpg" alt="Sixth review">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="h5">Review of the Best Street Food in Bangkok</h5>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#hero" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#hero" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-center py-4 text-white">
+        <p>&copy; 2024 FoodieFanatix | All rights reserved</p>
+        <div>
+            <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <!-- Link to Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
